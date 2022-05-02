@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <FileVersion>2.0.0.0</FileVersion>
+    <RepositoryUrl>https://github.com/omarbesiso/Ximo.EmailMessaging</RepositoryUrl>
+    <Copyright>Copyright Omar Besiso</Copyright>
+    <Description>A library assisting with abstracting Email Providers and Messaging.</Description>
+    <PackageProjectUrl>https://github.com/omarbesiso/Ximo.EmailMessaging</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <SignAssembly>False</SignAssembly>
+    <Version>2.0.0</Version>
+    <Authors>Omar Besiso</Authors>
+    <Company>Omar Besiso</Company>
+    <Product>Ximo Toolset</Product>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageIcon>ximo_icon.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Resources\ximo_icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
