@@ -1,4 +1,5 @@
-﻿namespace Ximo.EmailMessaging;
+﻿// ReSharper disable UnusedMember.Global
+namespace Ximo.EmailMessaging;
 
 /// <summary>
 ///     Service contract for sending emails.

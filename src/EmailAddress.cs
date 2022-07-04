@@ -1,5 +1,6 @@
 ﻿using System.Net.Mail;
 using System.Text;
+// ReSharper disable UnusedMember.Global
 
 namespace Ximo.EmailMessaging;
 
